@@ -1,0 +1,35 @@
+# 📊 Proyecto de Procesamiento de Datos con Python (Sin Frameworks)
+
+Este proyecto utiliza **Python puro**, sin frameworks como Django o Flask, para realizar procesamiento de datos simulados, almacenamiento en base de datos y generación de reportes.
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Generación de datos de ventas ficticios con **Faker**
+- ✅ Inserción de datos en una base de datos **SQLite**
+- ✅ Lectura y análisis de datos con **Pandas**
+- ✅ Generación de archivos:
+  - CSV (`generated_data.csv`)
+  - TXT (`summary.txt`)
+  - Excel (`report.xlsx`)
+  - Gráfico PNG (`sales_plot.png`)
+
+---
+
+## 📦 Requisitos
+
+Instala las dependencias necesarias:
+
+- pandas
+- sqlalchemy    >=2.0
+- matplotlib
+- openpyxl
+- faker
+
+📁 Archivos Generados
+📄 generated_data.csv: Datos en formato CSV
+📄 summary.txt: Resumen de ventas por producto
+📊 report.xlsx: Reporte en formato Excel
+📈 sales_plot.png: Gráfico de barras de ventas
+🗃️ sales.db: Base de datos SQLite
